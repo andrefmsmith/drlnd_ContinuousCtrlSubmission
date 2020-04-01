@@ -2,9 +2,9 @@
 
 ### Introduction
 
-In this project, we work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment. In this task, an agent learns to control a double-jointed arm in order to reach target locations. Reacher is a Unity ML Agents environment, and you can find out more about them [here](https://github.com/Unity-Technologies/ml-agents).
+In this project, we work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment. In this task, an agent learns to control a double-jointed arm in order to reach target locations. Reacher is a Unity ML Agents environment, and you can find out more about them [here](https://github.com/Unity-Technologies/ml-agents).  
 
-<img src="https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif" width="400/>
+<img src="https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif" width="400"/>
 
 ### Environment & Reward Structure
 As the double-jointed arm is moved to try and reach target locations, a reward of +0.1 is provided for each time step that the agent's hand is in the goal location (balloon). The goal of the agent is therefore to learn how to move its hand in a coordinated fashion such that it accompanies the (moving) target location for as many time steps as possible.  
@@ -13,9 +13,9 @@ To achieve this goal, the agent has access to an observation space consisting of
 
 The task is episodic, with each episode running for 1,000 time steps. It is considered solved if the agent averages a score above +30 over 100 consecutive episodes.  
 
-There are two options to the project: to solve the environment with a single agent or 20 paralellized agents. This repository contains a solution to the **single agent** option of the project. By using it, you should be able to go from:  
-<img width="300" src="https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/NaiveAgent.gif" width="300"  /> to 
-<img src="https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/ExpertAgent.gif" width="300"  /> in under 500 episodes.
+There are two options to the project: to solve the environment with a single agent or 20 paralellized agents. This repository contains a solution to the **single agent** option of the project. By following it, you should be able to go from a naive (left) to a pretty respectable agent in under 500 episodes.   
+<img align='left' width="300" src="https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/NaiveAgent.gif" width="300"  /> 
+<img align='right' src="https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/ExpertAgent.gif" width="300"  /> 
 
 ### Getting Started
 1. Reproduce my environment by following the instructions [here.](https://github.com/udacity/deep-reinforcement-learning#dependencies)
