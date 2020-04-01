@@ -27,12 +27,11 @@ There are two options to the project: to solve the environment with a single age
 ### Getting Started
 1. Reproduce my environment by following the instructions [here.](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 2. Clone this repository.
-3. Download the environment from whichever link below matches your operating system:
-    - **_One-Agent Version:_**
-        - [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
-        - [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
-        - [Windows 32-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
-        - [Windows 64-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
+3. Download the environment (one-agent version) from whichever link below matches your operating system:
+   - [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+   - [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
+   - [Windows 32-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
+   - [Windows 64-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
 4. Place the file in the same folder to which you cloned this repo, and decompress it. 
 
 ### Using this repo
