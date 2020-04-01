@@ -27,15 +27,14 @@ There are two options to the project: to solve the environment with a single age
 ### Getting Started
 1. Reproduce my environment by following the instructions [here.](https://github.com/udacity/deep-reinforcement-learning#dependencies)
 2. Clone this repository.
-3. Download the environment from whichever link below matches your operating system:
-    - **_One-Agent Version:_**
-        - [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
-        - [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
-        - [Windows 32-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
-        - [Windows 64-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
+3. Download the environment (one-agent version) from whichever link below matches your operating system:
+   - [Linux](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux.zip)
+   - [Mac OSX](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher.app.zip)
+   - [Windows 32-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86.zip)
+   - [Windows 64-bit](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Windows_x86_64.zip)
 4. Place the file in the same folder to which you cloned this repo, and decompress it. 
 
 ### Using this repo
-['Report'](https://www.youtube.com/watch?v=dQw4w9WgXcQ) is a Jupyter Notebook providing a detailed code walkthrough and background for the strategy used to solve the task. To train an agent to solve this environment, open the Jupyter Notebook ['ContinuousCtrlTrainCode'](https://www.youtube.com/watch?v=dQw4w9WgXcQ) and run the code cells in it.  
+['ContinuousCtrl_Report'](https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/ContinuousCtrl_Report.ipynb) is a Jupyter Notebook providing a detailed code walkthrough and background for the strategy used to solve the task. To train an agent to solve this environment, open the Jupyter Notebook ['ContinuousCtrl_TrainCode'](https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/ContinuousCtrl_TrainCode.ipynb) and run the code cells in it.  
 
 Remember to change the variable env = UnityEnvironment(file_name=" "), found in the code block titled 'Set Up Environment and Key Variables', to the path pointing to your downloaded and unzipped copy of the 'Reacher' environment.  
