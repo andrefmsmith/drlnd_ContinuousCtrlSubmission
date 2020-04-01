@@ -13,9 +13,13 @@ To achieve this goal, the agent has access to an observation space consisting of
 
 The task is episodic, with each episode running for 1,000 time steps. It is considered solved if the agent averages a score above +30 over 100 consecutive episodes.  
 
-There are two options to the project: to solve the environment with a single agent or 20 paralellized agents. This repository contains a solution to the **single agent** option of the project. By following it, you should be able to go from a naive (left) to a pretty respectable agent in under 500 episodes.   
-<img align='left' width="300" src="https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/NaiveAgent.gif" width="300"  /> 
-<img align='right' src="https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/ExpertAgent.gif" width="300"  /> 
+There are two options to the project: to solve the environment with a single agent or 20 paralellized agents. This repository contains a solution to the **single agent** option of the project. By following it, you should be able to go from a naive (left) to a pretty respectable (right) agent in under 500 episodes.   
+<img align='left' width="300" src="https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/NaiveAgent.gif" width="300"  /> <img align='right' src="https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/ExpertAgent.gif" width="300"  />  
+
+
+
+
+
 
 ### Getting Started
 1. Reproduce my environment by following the instructions [here.](https://github.com/udacity/deep-reinforcement-learning#dependencies)
