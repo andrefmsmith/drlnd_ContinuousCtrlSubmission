@@ -35,6 +35,6 @@ There are two options to the project: to solve the environment with a single age
 4. Place the file in the same folder to which you cloned this repo, and decompress it. 
 
 ### Using this repo
-['Report'](https://www.youtube.com/watch?v=dQw4w9WgXcQ) is a Jupyter Notebook providing a detailed code walkthrough and background for the strategy used to solve the task. To train an agent to solve this environment, open the Jupyter Notebook ['ContinuousCtrl_TrainCode'](https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/ContinuousCtrl_TrainCode.ipynb) and run the code cells in it.  
+['ContinuousCtrl_Report'](https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/ContinuousCtrl_Report.ipynb) is a Jupyter Notebook providing a detailed code walkthrough and background for the strategy used to solve the task. To train an agent to solve this environment, open the Jupyter Notebook ['ContinuousCtrl_TrainCode'](https://github.com/andrefmsmith/drlnd_ContinuousCtrlSubmission/blob/master/ContinuousCtrl_TrainCode.ipynb) and run the code cells in it.  
 
 Remember to change the variable env = UnityEnvironment(file_name=" "), found in the code block titled 'Set Up Environment and Key Variables', to the path pointing to your downloaded and unzipped copy of the 'Reacher' environment.  
